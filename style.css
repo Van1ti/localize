@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    max-width: 1338px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_container {
+    width: 100%;
+    max-width: 731px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+    margin-bottom: 33px;
+}
+
+.header_container--nav {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_container--nav--link {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.header_right {
+    width: 100%;
+    max-width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.header_right--button--left {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: #FFFFFF;
+    border: 1px solid #00000080;
+}
+
+.header_right--button--right {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6336;
+    border: #FF6336;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.accelerate {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 129px;
+}
+
+.accelerate_container {
+    width: 100%;
+    max-width: 538px;
+}
+
+.accelerate_container--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 70px;
+    letter-spacing: 0%;
+    margin-bottom: 51px;
+    color: #000000;
+}
+
+.accelerate_container--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.accelerate_container--btns {
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.accelerate_container--btns--try {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6336;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #FF6336;
+}
+
+.accelerate_container--btns--book {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 60px;
+    border-color: #00000080;
+}
+
+.accelerate_container--info {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0%;
+
+}
+
+.sponsors {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 182px;
+    background-color: #FF9C7D;
+}
+
+.sponsors_title {
+    display: flex;
+    justify-content: center;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 98px;
+}
+
+.sponsors_container{
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding-bottom: 94px;
+}
