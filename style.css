@@ -194,7 +194,7 @@ header {
     padding-top: 98px;
 }
 
-.sponsors_container{
+.sponsors_container {
     width: 100%;
     max-width: 1290px;
     margin: 0 auto;
@@ -203,4 +203,324 @@ header {
     align-items: center;
     margin-top: 70px;
     padding-bottom: 94px;
+}
+
+.grid {
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.grid_container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 250px;
+    justify-items: center;
+}
+
+.grid_container--text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    width: 520px;
+}
+
+.grid_container--text--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+}
+
+.grid_container--text--subtitle {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.grid_container--text--subtitle span {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+}
+
+.grid_container--text-text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.grid_container--img {
+    width: 632px;
+    height: 632px;
+}
+
+.grid_container--text1 {
+    width: 491px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.grid_container--text2 {
+    width: 491px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.lokalise {
+    background-color: #FFF8E4;
+}
+
+.lokalise_container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.lokalise_container--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    padding-top: 120px;
+    padding-bottom: 58px;
+}
+
+.lokalise_container--box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 58px;
+    padding-bottom: 150px;
+}
+
+.lokalise_container--box--card {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lokalise_container--box--card--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.lokalise_container--box--card--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.lokalise_container--box--card--text span {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+}
+
+.lokalise_container--box--card--text1 {
+    width: 281px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.lokalise_container--box--card--text2 {
+    width: 300px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.info_container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.info_container--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_container--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #000000;
+    padding-top: 154px;
+    padding-bottom: 75px;
+}
+
+.info_container--container--box {
+    width: 100%;
+    max-width: 409px;
+}
+
+.info_container--container--box--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 49px;
+    margin-bottom: 34px;
+}
+
+.info_container--container--box--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.info_container--container--box--link {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #000000;
+}
+
+.chief {
+    background-color: #C9E8F2;
+}
+
+.chief_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 468px;
+    margin-top: 190px;
+}
+
+
+.chief_container--box {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 920px;
+    padding-top: 63px;
+    padding-bottom: 150px;
+    margin-right: 59px;
+}
+
+
+.chief_container--box--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #000000;
+    padding-bottom: 23px;
+}
+
+.chief_container--box--info {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+
+.cake {
+    background-color: #DABC98;
+    padding-top: 89px;
+    padding-bottom: 84px;
+}
+
+.cake_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cake_container--box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 809px;
+}
+
+.cake_container--box--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    color: #000000;
+    max-width: 461px;
+    margin-right: 125px;
+    margin-left: 67px;
+}
+
+.cake_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    border-left: 1px solid #000000;
+    padding-left: 70px;
 }
