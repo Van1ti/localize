@@ -246,6 +246,22 @@ header {
     letter-spacing: 0%;
 }
 
+.grid_container--text--subtitle1 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 450px;
+}
+
+.grid_container--text--subtitle1 span {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+}
+
 .grid_container--text--subtitle span {
     text-decoration: underline;
     text-decoration-style: solid;
@@ -361,6 +377,16 @@ header {
 }
 
 .lokalise_container--box--card--text2 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.lokalise_container--box--card--text5 {
     width: 300px;
     font-family: Rubik;
     font-weight: 400;
@@ -369,6 +395,12 @@ header {
     line-height: 25px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.lokalise_container--box--card--text2 span {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
 }
 
 .info_container {
@@ -490,7 +522,7 @@ header {
 .cake_container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1290px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -500,7 +532,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 809px;
+    border-right: 1px solid #000000;
 }
 
 .cake_container--box--text {
@@ -516,11 +548,116 @@ header {
     margin-left: 67px;
 }
 
-.cake_img{
+.cake_img {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 70px;
-    border-left: 1px solid #000000;
-    padding-left: 70px;
+}
+
+.integrate {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.integrate_title {
+    margin: 0 auto;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 791px;
+    margin-top: 169px;
+}
+
+.integrate_text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 539px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.integrate_img {
+    margin-top: 25px;
+}
+
+.integrate_button {
+    background-color: #FF6336;
+    border: #FF6336;
+    width: 193px;
+    height: 60px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 162px;
+}
+
+.free {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    background-color: #FF9C7D;
+}
+
+.free_title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    max-width: 784px;
+    margin-top: 119px;
+    margin-bottom: 29px;
+}
+
+.free_text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.free_button {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: #000000;
+    width: 160px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 40px 0 40px;
+    margin-bottom: 161px;
 }
