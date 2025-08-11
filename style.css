@@ -789,3 +789,12 @@ footer {
     line-height: 15px;
     letter-spacing: 0%;
 }
+
+.footer_bottom--right--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0%;
+}
